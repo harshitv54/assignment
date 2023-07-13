@@ -6,6 +6,7 @@ import Testimonials from "../components/Testimonilas";
 import Introduction from "../components/Introduction";
 import Values from "../components/Values";
 import Features from "../components/Features";
+import Image from "next/image";
 
 export default function Home() {
   return (

@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -15,7 +16,7 @@ const Hero = () => {
               No need to get clever. Tell people excatly what <br  className="lg:flex hidden"/> you're offering, then use this space to communicate <br className="lg:flex hidden" /> your key value proposition.
             </p>
           </div>
-          <img className="rounded-3xl" src="/assets/hero.jpg" alt="" />
+          <Image width={500} height={500} className="rounded-3xl" src="/assets/hero.jpg" alt="" />
         </div>
       </div>
     </div>

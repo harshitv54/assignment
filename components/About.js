@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
           Share a little about yourself as a business owner, <br/> or maybe describe what makes your service unique. Give visitors one more reason to care about your offer and want to work with you.
           </p>
         </div>
-        <img src="/assets/about.jpg" alt="" className="rounded-[2rem]"/>
+        <Image width={500} height={500} src="/assets/about.jpg" alt="" className="rounded-[2rem]"/>
       </div>
     </div>
   );
